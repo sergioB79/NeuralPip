@@ -1,0 +1,16 @@
+# Hugo build outputs
+public/
+resources/_gen/
+.hugo_build.lock
+.hugo_cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Misc
+node_modules/
+.vercel/
+

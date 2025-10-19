@@ -247,4 +247,4 @@ It tells you **where to fish**, not which fish to catch.
 Reading the market like a machine doesn’t mean removing your human intuition — it means grounding it in a **repeatable, tested system**.  
 By assembling this toolkit, you empower yourself to process data faster, filter out noise, and execute trades based on logic — not hope.
 
-🎓 **Master the following, and you’ll never again be lost in the charts:**
+🎓 **Master this, and you’ll never again be lost in the charts.**

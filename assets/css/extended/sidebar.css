@@ -1,0 +1,39 @@
+/* Simple two-column layout for sidebar */
+.with-sidebar {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* Ensure main content uses available width */
+.with-sidebar .main {
+  min-width: 0; /* fix overflow with long code blocks */
+}
+
+/* Sidebar styles */
+.with-sidebar .sidebar {
+  position: sticky;
+  top: 5rem; /* below header */
+  max-height: calc(100vh - 6rem);
+  overflow: auto;
+}
+
+/* Tag cloud tweaks */
+.tagcloud a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 900px) {
+  .with-sidebar {
+    display: block;
+  }
+  .with-sidebar .sidebar {
+    position: static;
+    max-height: none;
+    margin-top: 1rem;
+  }
+}
+

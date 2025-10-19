@@ -1,0 +1,9 @@
+<div class="tagcloud" style="padding:1rem; text-align:center;">
+  <h3>Tags</h3>
+  {{ range $tag, $taxonomy := .Site.Taxonomies.tags }}
+    <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}"
+       style="margin:0.3rem; font-size:{{ add 0.8 (mul (div (len $taxonomy.Pages) 5.0) 1.2) }}rem;">
+       #{{ $tag }}
+    </a>
+  {{ end }}
+</div>

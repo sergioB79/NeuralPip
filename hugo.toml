@@ -1,0 +1,17 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "NeuralPip"
+theme = "PaperMod"
+
+[params]
+  subtitle = "AI. Code. Markets. Conscience."
+  author = "Sergio Batalha"
+  defaultTheme = "dark"
+  showReadingTime = true
+  showCodeCopyButtons = true
+  showToc = true
+
+[[menu.footer]]
+  name = "Disclaimer"
+  url = "/disclaimer/"
+  weight = 10

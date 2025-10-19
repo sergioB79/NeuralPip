@@ -6,7 +6,7 @@ date: 2025-10-19
 tags: ["trading", "forex", "price action", "technical analysis", "algorithmic trading", "education"]
 categories: ["Trading Guides", "Market Psychology"]
 cover:
-  image: "/images/traders-toolkit-cover.webp"
+  image: "/images/mechanicalTrader.png"
   alt: "The Trader’s Toolkit — How to Read a Market Like a Machine"
   caption: "Turn market chaos into calculated precision."
   relative: true

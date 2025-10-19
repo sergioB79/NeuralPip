@@ -4,13 +4,14 @@ date: 2025-10-19
 tags: ["XAGUSD", "commodities", "macro", "scarcity", "ethics"]
 draft: false
 ---
-![Silver Market Structure](../images/xagusd-structure.png)
----
 
 **Silver is both currency and component.**  
 That dual nature makes it one of the most strategically mispriced assets on the planet.
 
 ---
+![Silver Market Structure](/images/xagusd-structure.png)
+---
+
 
 ## ⚙️ Industrial Hunger
 
